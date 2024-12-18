@@ -5,7 +5,7 @@ WORKDIR /bot
 
 # Copy files to the working directory
 COPY package.json ./
-COPY JulioBot.js ./
+COPY Bot.js ./
 
 ARG TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
 ARG METAR_TOKEN=${METAR_TOKEN}
@@ -19,4 +19,4 @@ ARG DISCORD_TOKEN=${DISCORD_TOKEN}
 RUN npm install
 
 # Comando run de la imagen
-CMD [ "node", "JulioBot.js" ]
+CMD [ "node", "Bot.js" ]
