@@ -16,7 +16,7 @@
 <h3 align="center">Welcome - Bienvenid@</h3>
 
   <p align=center">
-    JulioBot (Telegram)
+    Bender
     <br />
     <br />
     <a href="https://t.me/Bender1992Bot/">View Demo - Ver Demo</a>
