@@ -8,15 +8,14 @@
     "openai": "^4.12.1",
     "telegraf": "^4.16.3"
   },
-  "name": "juliobot",
-  "description": "Bot para Telegram y Discord con contenido personalizable.",
-  "version": "1.6.0",
-  "main": "JulioBot.js",
+  "name": "bender",
+  "description": "Bot for telegram and discord with custom content support.",
+  "version": "1.7.0",
+  "main": "Bot.js",
   "scripts": {
-    "start": "node JulioBot.js"
+    "start": "node Bot.js"
   },
   "keywords": [],
-  "author": "Julio Reyes | www.jjrh92.dev",
+  "author": "Julio Reyes | www.julioreyes.dev",
   "license": "ISC"
 }
-

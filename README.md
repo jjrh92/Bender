@@ -2,14 +2,14 @@
 
 <div align="center">
 
-![Github Contributors](https://img.shields.io/github/contributors/jjrh92/JulioBot_Telegram)
-![Github Stars](https://img.shields.io/github/stars/jjrh92/JulioBot_Telegram)
-![Github Issues](https://img.shields.io/github/issues-raw/jjrh92/JulioBot_Telegram)
+![Github Contributors](https://img.shields.io/github/contributors/jjrh92/Bender)
+![Github Stars](https://img.shields.io/github/stars/jjrh92/Bender)
+![Github Issues](https://img.shields.io/github/issues-raw/jjrh92/Bender)
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jjrh92/JulioBot_Telegram">
+  <a href="https://github.com/jjrh92/Bender">
     <img src="https://img.icons8.com/plasticine/100/futurama-bender.png" alt="Logo" width="200" height="200">
   </a>
 
@@ -19,11 +19,11 @@
     JulioBot (Telegram)
     <br />
     <br />
-    <a href="https://t.me/BultoBot/">View Demo - Ver Demo</a>
+    <a href="https://t.me/Bender1992Bot/">View Demo - Ver Demo</a>
     ·
-    <a href="https://github.com/jjrh92/JulioBot_Telegram/issues">Report Bug - Reportar Bug</a>
+    <a href="https://github.com/jjrh92/Bender/issues">Report Bug - Reportar Bug</a>
     ·
-    <a href="https://github.com/jjrh92/JulioBot_Telegram/issues">Request Feature - Pedir Feature</a>
+    <a href="https://github.com/jjrh92/Bender/issues">Request Feature - Pedir Feature</a>
   </p>
 </div>
 
@@ -53,7 +53,7 @@ Install the project locally - Instalar el proyecto localmente.
 
 Clone the repo and run the command npm install, then run the command npm run dev
    ```sh
-   git clone https://github.com/jjrh92/JulioBot.git
+   git clone https://github.com/jjrh92/Bender.git
    ```
 
 Si gustas tambien puedes ver el proyecto desplegado usando el enlace "View demo" de arriba.
@@ -90,7 +90,7 @@ Contact <img src="https://media3.giphy.com/media/dA9zmG7BCtbauczAQY/giphy.gif" w
 
 [Via Github](https://github.com/jjrh92)
 
-[Via E-Mail](mailto:admin@jjrh92.dev)
+[Via E-Mail](mailto:contact@julioreyes.dev)
 
 [Via Telegram](https://t.me/jjrh92)
 
@@ -101,5 +101,3 @@ Acknowledgments <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXli
 
 [telegraf.js.org](https://telegraf.js.org/)
 [replit.com](https://replit.com/)
-[uptimerobot.com](https://uptimerobot.com/)
-
