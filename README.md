@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jjrh92/Bender">
-    <img src="https://img.icons8.com/plasticine/100/futurama-bender.png" alt="Logo" width="200" height="200">
+    <img src="https://img.icons8.com/?size=512&id=Jz5tDx0gvMMC&format=png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">Welcome - Bienvenid@</h3>
