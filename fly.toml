@@ -1,8 +1,23 @@
-app = "bender-bot"
+# fly.toml app configuration file generated for bender on 2025-08-29T21:32:20Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
 
-[[services]]
+app = 'bender'
+primary_region = 'cdg'
+
+[build]
+
+[http_service]
   internal_port = 3000
-  protocol = "tcp"
-  auto_stop_machines = false
+  force_https = true
+  auto_stop_machines = 'stop'
   auto_start_machines = true
-  min_machines_running = 1
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 256
