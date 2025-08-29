@@ -1,7 +1,7 @@
 app = "bender-bot"
 
 [[services]]
-  internal_port = 8080
+  internal_port = 3000
   protocol = "tcp"
   auto_stop_machines = false
   auto_start_machines = true
