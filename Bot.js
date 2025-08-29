@@ -59,11 +59,11 @@ discordClient.on("voiceStateUpdate", (oldState, newState) => {
   const user = newState.member.user;
   if (!oldState.channelId && newState.channelId) {
     sendTelegramMessage(
-      `<code>🗣️🗣️🗣️\n\n${user.username} has connected to ${newState.channel.name}.\n\n🟢🟢🟢</code>`
+      `<code>🗣️🗣️🗣️\n\n${user.username} connected to ${newState.channel.name}\n\n🟢🟢🟢</code>`
     );
   } else if (oldState.channelId && !newState.channelId) {
     sendTelegramMessage(
-      `<code>🗣️🗣️🗣️\n\n${user.username} has disconnected from ${oldState.channel.name}.\n\n🔴🔴🔴</code>`
+      `<code>🗣️🗣️🗣️\n\n${user.username} disconnected from ${oldState.channel.name}\n\n🔴🔴🔴</code>`
     );
   }
 });
