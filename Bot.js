@@ -11,7 +11,14 @@ const discordClient = new Client({
 });
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send(`
+    <h1>Bender (Bot) is running!🚀</h1>
+    <p>Version 1.7.0</p>
+    <p>Watching for events on Discord and reporting to Telegram.</p>
+    <p>Made with <3></p>
+    <a href="https://www.julioreyes.dev">Visit my portfolio!</a>
+    <p>Always learning and improving!</p>
+    `);
 });
 
 const port = 3000;
