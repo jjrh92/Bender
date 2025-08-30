@@ -68,6 +68,26 @@ discordClient.on("voiceStateUpdate", (oldState, newState) => {
   }
 });
 
+discordClient.once("ready", () => {
+  const activities = [
+    { name: "🚀 Online 🚀", type: 4 },
+    { name: "🤖 Online 🤖", type: 4 },
+    { name: "🗣️ Online 🗣️", type: 4 },
+    { name: "🟢 Online 🟢", type: 4 },
+  ];
+
+  let i = 0;
+  setInterval(() => {
+    const activity = activities[i];
+    discordClient.user.setPresence({
+      activities: [activity],
+      status: "online",
+    });
+
+    i = (i + 1) % activities.length;
+  }, 16 * 1000);
+});
+
 discordClient.login(discordToken);
 bot.launch();
 
