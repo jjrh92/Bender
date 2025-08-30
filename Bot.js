@@ -71,9 +71,16 @@ discordClient.on("voiceStateUpdate", (oldState, newState) => {
 discordClient.once("ready", () => {
   const activities = [
     { name: "🚀 Online 🚀", type: 4 },
+    { name: "🟢 Online 🟢", type: 4 },
     { name: "🤖 Online 🤖", type: 4 },
     { name: "🗣️ Online 🗣️", type: 4 },
-    { name: "🟢 Online 🟢", type: 4 },
+    { name: "💻 Online 💻", type: 4 },
+    { name: "👽 Online 👽", type: 4 },
+    { name: "👾 Online 👾", type: 4 },
+    { name: "✅ Online ✅", type: 4 },
+    { name: "🎮 Online 🎮", type: 4 },
+    { name: "🏁 Online 🏁", type: 4 },
+    { name: "🕹️ Online 🕹️", type: 4 },
   ];
 
   let i = 0;
